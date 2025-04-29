@@ -22,11 +22,10 @@ function count(element) {
 
     setTimeout(() => {
         count(element - 1);
-    }, 100)
+    }, 1000)
 }
 
 count(timer.innerHTML)
-
 
 
 
